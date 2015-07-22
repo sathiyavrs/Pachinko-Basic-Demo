@@ -20,7 +20,7 @@ Platform assembly: C:\Users\Sat\Documents\Unity 5 Projects\Pachinko Basic Demo\G
 Loading C:\Users\Sat\Documents\Unity 5 Projects\Pachinko Basic Demo\Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Sat\Documents\Unity 5 Projects\Pachinko Basic Demo\Game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Sat\Documents\Unity 5 Projects\Pachinko Basic Demo\Game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.906 seconds
+- Completed reload, in  0.069 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
