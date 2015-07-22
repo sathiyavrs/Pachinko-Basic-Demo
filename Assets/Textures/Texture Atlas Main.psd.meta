@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: e56d6590041704e4d9e99f3cd8ebdc1e
+timeCreated: 1437552282
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Texture Atlas Main_0
+    21300002: Texture Atlas Main_1
+    21300004: Texture Atlas Main_2
+    21300006: Texture Atlas Main_3
+    21300008: Texture Atlas Main_4
+    21300010: Texture Atlas Main_5
+    21300012: Texture Atlas Main_6
+    21300014: Texture Atlas Main_7
+    21300016: Texture Atlas Main_8
+    21300018: Texture Atlas Main_9
+    21300020: Texture Atlas Main_10
+    21300022: Star
+    21300024: Texture Atlas Main_12
+    21300026: Walls3
+    21300028: Texture Atlas Main_14
+    21300030: Texture Atlas Main_15
+    21300032: Cannon
+    21300034: Texture Atlas Main_17
+    21300036: Texture Atlas Main_18
+    21300038: Texture Atlas Main_19
+    21300040: Walls
+    21300042: Texture Atlas Main_21
+    21300044: Walls2
+    21300046: Texture Atlas Main_23
+    21300048: Texture Atlas Main_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Star
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walls3
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1444
+        width: 384
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannon
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 442
+        width: 197
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walls
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walls2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1
+        width: 384
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
