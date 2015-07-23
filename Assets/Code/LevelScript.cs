@@ -20,6 +20,14 @@ public class LevelScript : MonoBehaviour
         }
     }
 
+    public bool HasWon
+    {
+        get
+        {
+            return _hasWon;
+        }
+    }
+
     private GameObject _player;
     private List<ShrinkStars> _stars;
     private int _currentNumberOfLives;
@@ -43,6 +51,8 @@ public class LevelScript : MonoBehaviour
     public void Update()
     {
         HandleInput();
+        if (_currentNumberOfLives < 0)
+            _currentNumberOfLives = 0;
     }
 
     public void KillPlayer()
@@ -50,7 +60,9 @@ public class LevelScript : MonoBehaviour
         DestroyPlayer();
         _currentNumberOfLives--;
         if (_currentNumberOfLives == 0)
-            StartCoroutine(RestartGame());
+        {
+            //StartCoroutine(RestartGame());
+        }
         else
             InstantiatePlayer();
     }
@@ -59,7 +71,6 @@ public class LevelScript : MonoBehaviour
     {
         _hasWon = true;
         DestroyPlayer();
-        StartCoroutine(RestartGame());
     }
 
     private void HandleInput()
@@ -76,9 +87,10 @@ public class LevelScript : MonoBehaviour
             Application.Quit();
         }
 
-        if(Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.D))
         {
-            KillPlayer();
+            if (_currentNumberOfLives > 0 && !_hasWon)
+                KillPlayer();
         }
     }
 
@@ -100,7 +112,7 @@ public class LevelScript : MonoBehaviour
 
     private IEnumerator RestartGame()
     {
-        yield return new WaitForSeconds(1.5f);
+        //yield return new WaitForSeconds(1.5f);
         _currentNumberOfLives = MaxNumberOfLives;
         RespawnStars();
         if (_player != null)
