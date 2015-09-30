@@ -1,0 +1,4 @@
+# For all temporary files that VIM creates
+*.gitignore~
+*.md~
+*.cs~

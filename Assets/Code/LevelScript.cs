@@ -89,6 +89,8 @@ public class LevelScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.D))
         {
+		return;
+		
             if (_currentNumberOfLives > 0 && !_hasWon)
                 KillPlayer();
         }
