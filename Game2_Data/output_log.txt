@@ -2,12 +2,12 @@ Mono path[0] = 'D:/Unity Projects/PachinkoBasic/Game2_Data/Managed'
 Mono path[1] = 'D:/Unity Projects/PachinkoBasic/Game2_Data/Mono'
 Mono config path = 'D:/Unity Projects/PachinkoBasic/Game2_Data/Mono/etc'
 PlayerConnection initialized from D:/Unity Projects/PachinkoBasic/Game2_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55470
-Multi-casting "[IP] 10.1.80.208 [Port] 55470 [Flags] 3 [Guid] 4166832839 [EditorId] 3996262084 [Version] 1048832 [Id] WindowsPlayer(Sathiya) [Debug] 1" to [225.0.0.222:54997]...
-Waiting for connection from host on [10.1.80.208:55470]...
+PlayerConnection initialized network socket : 0.0.0.0 55257
+Multi-casting "[IP] 192.168.2.6 [Port] 55257 [Flags] 3 [Guid] 4281956227 [EditorId] 3996262084 [Version] 1048832 [Id] WindowsPlayer(Sathiya) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.2.6:55257]...
 Timed out. Continuing without host connection.
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56839
-PlayerConnection already initialized - listening to [10.1.80.208:55470]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56227
+PlayerConnection already initialized - listening to [192.168.2.6:55257]
 Initialize engine version: 5.1.2f1 (afd2369b692a)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -26,14 +26,14 @@ Platform assembly: D:\Unity Projects\PachinkoBasic\Game2_Data\Managed\UnityEngin
 Loading D:\Unity Projects\PachinkoBasic\Game2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Unity Projects\PachinkoBasic\Game2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading D:\Unity Projects\PachinkoBasic\Game2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.563 seconds
+- Completed reload, in  0.484 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: D:\Unity Projects\PachinkoBasic\Game2_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Unity Projects\PachinkoBasic\Game2_Data\Managed\System.dll (this message is harmless)
--0.2138957 69.23055
+0.4689997 40.77981
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -43,7 +43,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
-0.2429856 37.30312
+0.457516 36.08889
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -53,7 +53,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.1171324 64.48611
+0.02871209 51.39137
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -63,7 +63,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
-0.0216133 68.61985
+0.03535002 53.74429
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -73,7 +73,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
-0.3380619 44.17157
+0.1054245 47.26118
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -83,7 +83,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.2869756 37.10786
+-0.26571 55.86022
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -93,7 +93,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.4120818 48.05142
+0.4667894 47.44635
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -103,7 +103,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.4398193 46.99288
+-0.201752 51.5644
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -113,7 +113,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.05558294 35.85329
+0.4185752 62.67337
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -123,7 +123,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.2240722 55.86236
+-0.348294 35.52626
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -133,7 +133,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.3581635 55.00763
+-0.1775263 57.63397
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -143,7 +143,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.2593961 64.90969
+0.01189989 41.26
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -153,7 +153,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.407928 42.45222
+0.4140036 49.83311
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -163,7 +163,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
-0.09360617 60.6201
+-0.3945907 52.35687
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -173,7 +173,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.1291712 35.77029
+-0.3937372 48.92083
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -183,7 +183,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.1631199 40.66079
+0.0982644 61.77704
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -193,7 +193,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.07126707 40.08244
+-0.1563515 63.99193
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -203,7 +203,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.09862894 45.70234
+0.07297319 53.30839
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -213,7 +213,7 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
--0.1070815 45.33774
+0.04976052 46.90561
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
@@ -223,7 +223,37 @@ LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchCon
  
 (Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
 
-0.1500573 50.96527
+0.1811546 46.73699
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
+LaunchControl:LaunchBall() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:73)
+LaunchControl:HandleInput() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:64)
+LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:55)
+ 
+(Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
+
+0.1341246 36.41099
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
+LaunchControl:LaunchBall() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:73)
+LaunchControl:HandleInput() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:64)
+LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:55)
+ 
+(Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
+
+-0.1567907 40.47208
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
+LaunchControl:LaunchBall() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:73)
+LaunchControl:HandleInput() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:64)
+LaunchControl:Update() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:55)
+ 
+(Filename: D:/Unity Projects/PachinkoBasic/Assets/Code/LaunchControl.cs Line: 97)
+
+-0.200313 49.66042
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 LaunchControl:OrdinaryLaunching() (at D:\Unity Projects\PachinkoBasic\Assets\Code\LaunchControl.cs:97)
